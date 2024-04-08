@@ -17,7 +17,6 @@ const App = () => {
     if (company) {
       await updateStarredStatus(company, starred);
       const data = await fetchAllData();
-      console.log("ata",data)
       setSearchResults(data);
     }
   }, [searchResults]);  
@@ -40,7 +39,6 @@ const App = () => {
   }, []);
 
   const displayStarred = () => {
-    console.log(searchResults)
     const updatedResults = searchResults.filter(res => res.starred === true)
     setSearchResults(updatedResults)
   }
