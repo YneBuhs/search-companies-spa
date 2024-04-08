@@ -1,0 +1,70 @@
+.app {
+  text-align: center;
+}
+
+.search-container {
+  margin-top: 50px;
+
+  h1 {
+    color: rgb(65, 88, 208);
+    font-size: 48px;
+    margin: 16px 0;
+  }
+
+  h2 {
+    color: #6c757d;
+    margin: 8px 0 24px 0;
+  }
+}
+
+.btn__display {
+  border: none;
+  background: none;
+  color: #6c757d;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.search-form {
+  padding: 5px;
+  width: max-content;
+  margin: 0 auto;
+  border: 1px solid  rgb(65, 88, 208);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px #adb5bd;
+}
+
+.search-form input {
+  background-color: white;
+  margin-right: 12px;
+  border: none;
+}
+
+.search-form button[type="submit"] {
+  border-radius: 10px;
+  background-color: #ff5b60;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  :focus {
+    border: none;
+  }
+}
+
+.search-form button[type="submit"]:hover {
+  background-color: #ff5b60;
+}
+
+.results-container {
+  margin: 16px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+form {
+  label {
+    color: white;
+  }
+}
